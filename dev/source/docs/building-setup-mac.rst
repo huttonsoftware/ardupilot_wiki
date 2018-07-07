@@ -58,6 +58,9 @@ If there have been updates to some git submodules you may need to do a full clea
 
 ::
 
-    make px4-clean
+    ./waf distclean
 
-that will remove the *PX4NuttX* archives so you can do a `build <https://github.com/ArduPilot/ardupilot/blob/master/BUILD.md>`__ from scratch.
+Commands `clean` and `distclean` can be used to clean the objects produced by the build.
+`clean` keeps the configure information, cleaning only the objects for the current board. `distclean` cleans everything for every board, including the saved configure information.
+
+Follow the instructions for `build <https://github.com/ArduPilot/ardupilot/blob/master/BUILD.md>`__ .
