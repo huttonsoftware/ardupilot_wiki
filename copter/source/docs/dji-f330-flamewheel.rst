@@ -154,6 +154,10 @@ ESC Installation and Soldering the Power Distribution Board
 .. image:: ../images/FlameWheel330Oring800.jpg
     :target: ../_images/FlameWheel330Oring800.jpg
 
+-  Be careful to wire motors to the Pixhawk using the ArduPilot convention on propeller numbering shown below. The DJI FlameWheel F450 assembly instructions online have motors 2 and 3 reversed, and wiring it that way causes attitude instability.
+.. image:: ../images/MOTORS_QuadX.jpg
+    :target: ../_images/MOTORS_QuadX.jpg
+
 Reduced Vibration Installation of the Flight Control Board
 ==========================================================
 
